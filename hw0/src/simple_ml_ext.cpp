@@ -85,7 +85,6 @@ void softmax_regression_epoch_cpp(const float *X, const unsigned char *y,
      */
 
     /// BEGIN YOUR CODE
-    multiply(theta, .0f, n, k);
 
     float *X_batch = new float[batch * n];
     unsigned char *y_batch = new unsigned char[batch];
